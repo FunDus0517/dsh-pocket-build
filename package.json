@@ -30,7 +30,7 @@
     "@types/react": "18.3.26",
     "@types/react-dom": "18.3.7",
     "@vitejs/plugin-react": "4.7.0",
-    "esbuild": "0.25.12"
+    "esbuild": "0.28.2"
   },
   "overrides": {
     "@deepseek-ai/dsh-acp": "0.1.6-alpha.1",
