@@ -1,0 +1,34 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      deepseek-alpha:
+        patterns:
+          - "@deepseek-ai/*"
+        update-types:
+          - patch
+      web-tooling:
+        patterns:
+          - vite
+          - typescript
+          - esbuild
+          - "@vitejs/*"
+          - "@types/*"
+        update-types:
+          - minor
+          - patch
+    ignore:
+      - dependency-name: "@deepseek-ai/*"
+        update-types:
+          - version-update:semver-major
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 3

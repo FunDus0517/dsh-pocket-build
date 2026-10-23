@@ -1,0 +1,1 @@
+{"name":"DSH · 随身 Harness","short_name":"DSH","description":"在手机上运行 Harness，或接续桌面的工作","lang":"zh-CN","start_url":"/","scope":"/","display":"standalone","background_color":"#ffffff","theme_color":"#ffffff","icons":[{"src":"/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}

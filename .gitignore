@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.runtime/
+.desktop-state/
+.openai-local/
+*.log
+test-results/
+ios/DSHPocket/Web/
+public/runtime/
+tools/bin/
+.remote/
+remote-desktop.json.tmp
+remote-desktop.json
+coverage/
+*.tsbuildinfo
+.DS_Store
