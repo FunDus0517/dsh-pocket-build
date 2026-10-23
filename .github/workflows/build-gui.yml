@@ -77,7 +77,7 @@ jobs:
           zip -qry "DSHPocket-official-$VERSION.ipa" Payload
           shasum -a 256 "DSHPocket-official-$VERSION.ipa" | tee "DSHPocket-official-$VERSION.ipa.sha256"
           ls -l
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: DSHPocket-official-ipa
           path: |
